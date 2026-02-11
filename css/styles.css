@@ -1,0 +1,83 @@
+:root{
+    --blanco: #E0D9D9;
+    --oscuro: #432323;
+    --primario: #d8c663;
+    --secundario: #5A9690;
+    --gris: #A9A9A9;
+
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--blanco);
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px; /*1 rem = 10px*/
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--oscuro);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.titulo span{
+    font-size: 2rem;
+} 
+
+.contenedor{
+    width: 140rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal{
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.hero{
+    background-image: url(../img/Chicote.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
+    position: relative;
+}
+
+.contenido-hero{
+    position: absolute;
+    justify-content: center;
+
+
+}
+
+
+
